@@ -11,7 +11,7 @@ programa
 	
 	escreva("Segunda expressão: escreva 2 + 7 * (14 - 21) + 28 * 3 * 42 + 740 - (156 + 4 + 40) * 9")
 	result2 = (2 + 7 * (14 - 21) + (28 * 3 * 42) + 740 - (156 + 4 + 40) * 9)
-	escreva("O resultado da segunda expressão é ", result2, "\n")
+	escreva("\n", "O resultado da segunda expressão é ", result2, "\n")
 	}
 }
 
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 509; 
+ * @POSICAO-CURSOR = 499; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

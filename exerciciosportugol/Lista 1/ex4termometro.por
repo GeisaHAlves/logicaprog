@@ -3,17 +3,19 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro resposta
-		escreva("\nQuantos produtos você deseja comprar? ")
-		leia(resposta)
+		real celsius
+		escreva("++Conversor de Temperatura++", "\n")
+		escreva("Digite uma temperatura em °C: ")
+		leia(celsius)
+		real f
+	//Processamento
+	f = (celsius * 1.8 + 32)
+	
+	escreva("Temperatura em °C: " ,celsius )
+     escreva("\n","Temperatura em °F: " , f)
 
-	   se (resposta > 0){
-            escreva("Parabéns por comprar ", resposta, " produtos!")}
-        senao se (resposta == 0){
-            escreva("Poxa, quem sabe na próxima visita?")}
-        senao 
-            escreva("Não quer comprar nada!")
-		  
+//Bike com rodinhas = portugol
+//fazer um tratamento de erro pra limitar as respostas de 0 a 100C e 32 a 202F
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 69; 
+ * @POSICAO-CURSOR = 164; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

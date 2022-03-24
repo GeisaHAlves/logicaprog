@@ -1,9 +1,9 @@
 programa
-{/* inteiro oposto = -resultado*/
+{/* inteiro oposto = -resultado*/
 	
 	funcao inicio()
 	{
-		escreva("***Calculadora Oposta***")
+		escreva("***Calculadora Oposta***", "\n")
 		real n1, n2, soma, subtracao, multiplicacao, divisao
 		//inteiro n1
 		//inteiro n2
@@ -24,7 +24,7 @@ programa
 		escreva("O resultado da soma oposta é: ", soma, "\n")
 		escreva("O resultado da subtracao oposta é: ", subtracao, "\n")
 		escreva("O resultado da multiplicacao oposta é: ", multiplicacao, "\n")
-		escreva("O resultado da divisao oposta é: ", divisao)
+		escreva("O resultado da divisao oposta é: ", divisao, "\n")
 		
 		//declaracao
 		//atribuicao
@@ -37,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 764; 
+ * @POSICAO-CURSOR = 755; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

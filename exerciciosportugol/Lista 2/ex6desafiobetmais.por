@@ -44,7 +44,7 @@ programa
 		leia(n9)
 		escreva("\nAmigo 10 Qual o seu nome? ")
 		leia(nome10)
-		escreva(nome10, ", Escreva um número: ")
+		escreva(nome10, ", Escrev3a um número: ")
 		leia(n10)
  		 
  		se(n1 % 2 == 0){
@@ -88,7 +88,7 @@ programa
                 senao
                     impar = impar - n10
 		
-		escreva("A soma dos numeros pares é: ", par, "\n")
+		escreva("\nA soma dos numeros pares é: ", par, "\n")
 		escreva("A subtração dos numeros impares é: ", impar, "\n")
 		
 	}
@@ -98,7 +98,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1236; 
+ * @POSICAO-CURSOR = 2519; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

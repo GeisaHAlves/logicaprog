@@ -23,7 +23,7 @@ programa
 		soma = (idade1 + idade2 + idade3 + idade4 + idade5 + idade6)
 		
 		//saida
-		escreva("O tempo de vida meu e dos meus colegas é: ", soma) 
+		escreva("\n" , "O tempo de vida meu e dos meus colegas é: ", soma, "\n") 
 		
 		
 	}
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 548; 
+ * @POSICAO-CURSOR = 616; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
